@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<messagebundle>
+<msg name="title">stopwatch by gfeng@SDU</msg> 
+  <msg name="countdown">countdown</msg> 
+  <msg name="count">count</msg> 
+  <msg name="info">info</msg> 
+  <msg name="start">start</msg> 
+  <msg name="reset">reset</msg> 
+  <msg name="pause">pause</msg> 
+  <msg name="resume">resume</msg> 
+  <msg name="record">record</msg> 
+  <msg name="clear">clear</msg> 
+</messagebundle>
