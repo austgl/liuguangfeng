@@ -1,0 +1,58 @@
+/* Effective stylesheet produced by snapshot save */
+#AppList {  }
+#AppList ul { padding: 0pt 0pt 0pt 10px; margin: 0pt; }
+#AppList li { list-style-type: none; }
+#AppList .AppListSwatch { position: relative; clear: both; }
+#AppList .AppListSwatch .Image { height: 90px; width: 90px; float: left; padding-bottom: 10px; }
+#AppList .AppListSwatch .Description { float: left; padding: 35px 0pt 35px 10px; }
+#AppList .AppListPanel { position: relative; clear: both; }
+#AppList .AppListPanel .Panel { float: left; padding-bottom: 20px; }
+#AppList .AppListPanel .Description { float: left; }
+#AppList .AppListPanel .Description h2 { margin: 0pt; padding-left: 20px; width: 300px; }
+#AppList .AppListPanel .Description h2 a { color: rgb(228, 121, 16); }
+#AppList .AppListPanel .Description h3 { margin: 5px 0pt 0pt; padding-left: 20px; width: 300px; font-size: 11px; color: rgb(85, 85, 85); }
+#AppList .AppListPanel .CategoryLink { font-size: 10px; }
+#AppList .AppListPanel .Description h2 a:link, #AppList .AppListPanel .Description h3 a:link { text-decoration: none; }
+#AppList .AppListPanel .Description h2 a:visited, #AppList .AppListPanel .Description h3 a:visited { text-decoration: none; }
+#AppList .AppListPanel .Description h2 a:active, #AppList .AppListPanel .Description h3 a:active { text-decoration: none; }
+#AppList .AppListPanel .Description h2 a:hover, #AppList .AppListPanel .Description h3 a:hover { text-decoration: underline; }
+#AppList .AppListPanel .Description p { padding-left: 20px; width: 300px; }
+#AppList_PagingLinks { clear: both; display: block; margin-left: 220px; }
+#AppList_PagingLinks a, #appList_PagingLinks span { padding: 0pt 10px; font-size: 12px; }
+#AppList_PagingLinks span { color: rgb(119, 119, 119); }
+.AppPanelListItem { display: block; width: 348px; height: 291px; float: left; }
+.IconPanel { position: relative; width: 200px; height: 38px; }
+.IconPanel #Image { float: left; border: 1px solid rgb(170, 170, 170); }
+.IconPanel #Image img { display: block; height: 32px; width: 32px; }
+.IconPanel #LabelContainer { float: left; width: 160px; height: 38px; padding-left: 5px; font-family: "Segoe UI","Gill Sans",Verdana,Arial,Sans-Serif; color: black; text-align: left; line-height: 1.2em; font-size: 9pt; overflow: hidden; text-decoration: none; }
+.IconPanel #DetailButton { visibility: hidden; position: absolute; right: 0pt; bottom: 0pt; }
+.IconPanel #DetailButton img { border: medium none; display: block; }
+.IconPanelHover { position: relative; width: 200px; height: 38px; cursor: pointer; background-color: rgb(192, 220, 226); }
+.IconPanelHover #Image { float: left; border: 1px solid rgb(170, 170, 170); }
+.IconPanelHover #Image img { display: block; height: 32px; width: 32px; }
+.IconPanelHover #LabelContainer { float: left; width: 160px; height: 38px; padding-left: 5px; font-family: "Segoe UI","Gill Sans",Verdana,Arial,Sans-Serif; color: black; text-align: left; line-height: 1.2em; font-size: 9pt; overflow: hidden; text-decoration: underline; }
+.IconPanelHover #DetailButton { visibility: visible; position: absolute; right: 0pt; bottom: 0pt; }
+.IconPanelHover #DetailButton img { border: medium none; display: block; }
+.IconPanelListGroupContainer { width: 240px; float: left; }
+.IconPanelListGroupContainerContent { padding: 5px 10px 15px 0px; }
+.IconPanelListContainer { width: 200px; float: left; margin: 0pt; padding: 0pt; }
+.IconPanelListContainer #LinkLayout { margin-left: 39px; }
+.IconPanelList { width: 200px; float: left; }
+.SearchBoxText { font-size: 12pt; font-family: "Segoe UI","Gill Sans",Verdana,Arial,sans-serif; width: 320px; height: 27px; }
+.Watermark { color: rgb(136, 136, 136); font-style: italic; font-size: 12pt; font-family: "Segoe UI","Gill Sans",Verdana,Arial,sans-serif; width: 320px; height: 27px; }
+.SearchBoxCompletionList { margin: 0pt; background-color: rgb(255, 255, 255); list-style: none outside none; float: left; text-align: left; position: relative; z-index: 100; border-left: 1px solid rgb(136, 136, 136); border-right: 1px solid rgb(136, 136, 136); border-bottom: 1px solid rgb(136, 136, 136); padding: 0pt 0pt 0pt 5px; }
+.SearchBoxCompletionListItem { font-family: "Segoe UI","Gill Sans",Verdana,Arial,sans-serif; font-size: 9pt; background-color: rgb(255, 255, 255); cursor: default; }
+.SearchBoxCompletionListItemHighlighted { font-family: "Segoe UI","Gill Sans",Verdana,Arial,sans-serif; font-size: 9pt; background-color: rgb(238, 238, 238); cursor: pointer; }
+.Swatch { display: inline-block; float: left; border: 0pt none; padding: 0pt; margin: 0pt; width: 80px; height: 80px; }
+.Swatch img { width: 80px; height: 80px; }
+.SwatchPanel { display: inline-block; position: relative; float: left; width: 104px; height: 124px; text-align: center; border: 0pt none; padding: 0pt; margin: 0pt; }
+.SwatchPanel #Swatch { display: inline-block; position: relative; float: left; width: 80px; height: 80px; top: 11px; left: 11px; padding: 0pt; margin: 0pt; border: 1px solid rgb(170, 170, 170); }
+.SwatchPanel #Label { display: inline-block; position: relative; width: 104px; height: 24px; top: 12px; border: 0pt none; padding: 0pt; margin-top: 4px; font-family: "Segoe UI","Gill Sans",Verdana,Arial,sans-serif; line-height: 1.1em; font-size: 8pt; color: rgb(128, 128, 128); overflow: hidden; text-decoration: none; }
+.SwatchPanel #DetailButton { visibility: hidden; position: absolute; left: 87px; top: 107px; }
+.SwatchPanel #DetailButton img { border: medium none; }
+.SwatchPanelHover { display: inline-block; position: relative; cursor: pointer; float: left; width: 104px; height: 124px; text-align: center; background-color: rgb(192, 220, 226); border: 0pt none; padding: 0pt; margin: 0pt; }
+.SwatchPanelHover #Swatch { display: inline-block; position: relative; float: left; width: 80px; height: 80px; top: 11px; left: 11px; padding: 0pt; margin: 0pt; border: 1px solid rgb(128, 128, 128); }
+.SwatchPanelHover #Label { display: inline-block; position: relative; width: 104px; height: 24px; top: 12px; border: 0pt none; padding: 0pt; margin-top: 4px; font-family: "Segoe UI","Gill Sans",Verdana,Arial,sans-serif; line-height: 1.1em; font-size: 8pt; color: rgb(128, 128, 128); overflow: hidden; text-decoration: underline; }
+.SwatchPanelHover #DetailButton { visibility: visible; position: absolute; left: 87px; top: 107px; }
+.SwatchPanelHover #DetailButton img { border: medium none; }
+.SwatchPanelList { height: 104px; float: left; margin-bottom: 10px; margin-left: 0px; text-align: center; }

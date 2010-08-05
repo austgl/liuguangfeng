@@ -1,0 +1,50 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- The HTML 4.01 Transitional DOCTYPE declaration-->
+<!-- above set at the top of the file will set     -->
+<!-- the browser's rendering engine into           -->
+<!-- "Quirks Mode". Replacing this declaration     -->
+<!-- with a "Standards Mode" doctype is supported, -->
+<!-- but may lead to some differences in layout.   -->
+
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>Hello App Engine</title>
+<script type="text/javascript" src="jquery-1.4.2.min.js"></script>
+<script type="text/javascript">
+function addcity(){
+	$.get('/admin?cmd=add&table=city&cname='+$('#cname').val());
+}
+function addinfo(){
+	$.get('/admin?cmd=add&table=info&cid='+$('#cid').val()+'&sid='+$('#sid').val()+'&image='+$('#image').val()+'&price_now='+$('#price_now').val()+'&price_original='+$('#price_original').val()+'&price_save='+$('#price_save').val()+'&discount='+$('#discount').val()+'&dscription='+$('#dscription').val()+'&url='+$('#url').val()+'&startime='+$('#startime').val()+'&endtime='+$('#endtime').val()+'&title='+$('#title').val());
+}
+function addsite(){
+	$.get('/admin?cmd=add&table=site&url='+$('#surl').val()+'&sname='+$('#sname').val());
+}
+</script>
+</head>
+
+<body>
+<h1>Add city</h1>
+cname:<input type="text" id="cname"name="cname"><br>
+<input type="button" onclick="addcity()" value="addcity">
+<h1>Add site</h1>
+url:<input type="text" id="surl"name="url"><br>
+sname:<input type="text" id="sname"name="sname"><br>
+<input type="button" onclick="addsite()" value="addSite">
+<h1>Add Info</h1>
+cid:<input type="text" id="cid"name="cid"><br>
+sid:<input type="text" id="sid"name="sid"><br>
+price_now:<input type="text" id="price_now"name="price_now"><br>
+price_original:<input type="text" id="price_original"name="price_original"><br>
+price_save:<input type="text" id="price_save"name="price_save"><br>
+discount:<input type="text" id="discount"name="discount"><br>
+dscription:<input type="text" id="dscription"name="dscription"><br>
+url:<input type="text" id="url"name="url"><br>
+image:<input type="text" id="image"name="image"><br>
+startime:<input type="text" id="startime"name="startime"><br>
+endtime:<input type="text" id="endtime"name="endtime"><br>
+title:<input type="text" id="title"name="title"><br>
+<input type="button" value="add info" onclick="addinfo()">
+</body>
+</html>
